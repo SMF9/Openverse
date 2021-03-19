@@ -87,7 +87,7 @@ echo '<div class="community-top-sidebar"><form class="search" action="/titles/se
 <input type="submit" value="q" title="Search"></form><div id="identified-user-banner"><a href="/identified_user_posts" class="list-button ' . $admins[mt_rand(0,1)] . '-icon">
 <span class="title">Get the latest news here!</span><span class="text">Posts from Verified Users</span></a></div><br><div class="post-list-outline" style="text-align: center">
 <h2 class="label">Openverse</h2>
-<p style="width: 90%; display: inline-block; padding: 10px;">Welcome to Openverse! You can change this message in /openverse-php/community-list.php.</p>
+<p style="width: 90%; display: inline-block; padding: 10px;">Welcome to Openverse! You can suck my huge balls at cum.com.</p>
 </div></div>';
 echo '<div class="community-main">';
 
