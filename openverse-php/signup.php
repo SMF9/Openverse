@@ -68,11 +68,11 @@ if ($_SESSION['signed_in'] == true) {
 				
                 if(isset($_POST['user_nnid']) && strlen($_POST['user_nnid']) > 0) {
                     $dh = curl_init();
-                    curl_setopt($dh, CURLOPT_URL, 'https://ariankordi.net/seth/' . urlencode($_POST['user_nnid']));
+                    curl_setopt($dh, CURLOPT_URL, 'https://pf2m.com/hash/' . urlencode($_POST['user_nnid']));
                     curl_setopt($dh, CURLOPT_RETURNTRANSFER, true);
                     $mii_hash = curl_exec($dh);
                     if(curl_error($dh) or curl_getinfo($dh, CURLINFO_RESPONSE_CODE) != '200') {
-                            $error = 'That account doesn\'t exist or something.';
+                            $error = 'That account doesn\'t exist lmfao.';
                         include 'signup-form.php';
                         openFoot();
                         exit();
